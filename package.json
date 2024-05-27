@@ -1,0 +1,28 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "description": "![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
